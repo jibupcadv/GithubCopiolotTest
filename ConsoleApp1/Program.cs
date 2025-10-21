@@ -4,4 +4,4 @@ using ConsoleApp1;
 Console.WriteLine("Hello, World!");
 IService service = new Service();
 service.Execute();
-service.Execute1();
+service.ExecuteService2();

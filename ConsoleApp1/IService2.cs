@@ -1,8 +1,7 @@
 ﻿namespace ConsoleApp1
 {
-    public interface IService
+    public interface IService2
     {
         void Execute();
-        void ExecuteService2();
     }
 }

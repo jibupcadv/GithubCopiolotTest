@@ -13,9 +13,10 @@ namespace ConsoleApp1
             Console.WriteLine("Service is executing...");
         }
 
-        public void Execute1()
+        public void ExecuteService2()
         {
-            Console.WriteLine("Service Execute 1 is executing...");
+            IService2 service2 = new Service2();
+            service2.Execute();
         }
     }
 }
