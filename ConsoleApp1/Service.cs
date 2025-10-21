@@ -12,5 +12,10 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Service is executing...");
         }
+
+        public void Execute1()
+        {
+            Console.WriteLine("Service Execute 1 is executing...");
+        }
     }
 }
